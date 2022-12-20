@@ -1,11 +1,11 @@
   # Todo App
 This is a command-line to-do app that allows you to manage a list of tasks. You can add new items to the list, view the existing items, delete items, and quit the app. The app also stores the list in a file, so that you can access it even after closing the app.
   # Features
-    . Add new to-do items
-    . View the list of to-do items
-    . Delete items from the list
-    . Quit the app
-    . Store the list in a file for future use
+  - Add new to-do items
+  - View the list of to-do items
+  - Delete items from the list
+  - Quit the app
+  - Store the list in a file for future use
 # Implementation
 This app was implemented by combining the functionality of a command-line to-do app with the features of a Flutter app. The command-line app provided the basic structure for accepting user input and performing actions based on that input, while the Flutter app provided a user-friendly interface for adding and displaying to-do items.
 
@@ -16,10 +16,10 @@ Overall, the integration of Flutter into this app allowed us to create a user-fr
 # Usage
 To use the app, enter one of the following commands:
 
-    'add': Add a new to-do item to the list.
-    'list': View the list of to-do items.
-    'delete': Delete an item from the list
-    'quit': Quit the app.
+ - 'add': Add a new to-do item to the list.
+ - 'list': View the list of to-do items.
+ - 'delete': Delete an item from the list
+ - 'quit': Quit the app.
 To add a new to-do item, enter the 'add' command and follow the prompts to enter the item. The item will be added to the list and saved in the file for future use.
 
 To view the list of to-do items, enter the 'list' command. The app will display the items in the list, numbered in the order they were added.
